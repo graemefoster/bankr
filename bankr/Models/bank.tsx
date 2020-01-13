@@ -1,7 +1,7 @@
 import { Guid } from 'guid-typescript'
 import Account from 'Components/account';
 
-export default class Bank
+export default class BankModel
 {
     BankAccount: AccountModel
     Accounts: AccountModel[]

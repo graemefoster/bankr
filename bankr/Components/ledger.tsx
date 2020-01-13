@@ -21,10 +21,10 @@ import {
     Colors,
 } from 'react-native/Libraries/NewAppScreen';
 
-import { Transaction } from '../Models/bank'
+import { TransactionModel } from '../Models/bank'
 
 interface LedgerProps {
-    ledger: Transaction[]
+    ledger: TransactionModel[]
 }
 
 class Ledger extends Component<LedgerProps> {
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     },
     balance: {
         fontSize: 20,
-        width:75,
+        width:100,
         color: 'green'
     },
     balanceNegative: {
